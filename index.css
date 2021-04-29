@@ -1,0 +1,29 @@
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+}
+.header div {
+    margin-left: 4px;
+    font-size: 14px;
+    color: dimgray;
+    border-bottom: darkgray;
+    border-right: darkgray;
+}
+.header div:hover {
+    cursor: pointer;
+    color: brown;
+}
+.request {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+button, .content {
+    display: block;
+    font-size: 14px;
+    padding: 3px;
+    margin: 4px;
+    background-color: gainsboro;
+}
